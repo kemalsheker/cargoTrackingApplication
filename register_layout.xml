@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:layout_gravity="center"
+    android:background="@drawable/crop">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kargomkolay_logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center|top"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/register_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_marginBottom="16dp" />
+
+
+        <EditText
+            android:id="@+id/name_reg"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_border"
+            android:hint="Tam Adınız..."
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp" />
+
+
+
+        <EditText
+            android:id="@+id/phonenum_reg"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_border"
+            android:hint="Telefon Numarası..."
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/email_reg"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:hint="E-mail..."
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/newPassword"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:hint="Şifre..."
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/registerBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAYDOL"
+            android:background="@drawable/rounded_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

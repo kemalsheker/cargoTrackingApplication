@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/browser_actions_context_menu_min_padding">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emin misiniz?Çıkış yaparsanız keydedilmemiş veriler silinir."
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/vazgec_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="VAZGEÇ"
+            android:textSize="20sp"
+            android:textColor="#6666ff"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/exit_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="ÇIKIŞ YAP"
+            android:textSize="20sp"
+            android:textColor="#FF3232"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

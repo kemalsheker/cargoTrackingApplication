@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GetData">
+
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/example1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/OperationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <View android:background="#000000"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/OperationName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/Description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/timeStamp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <View android:background="#000000"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:id="@+id/OperationName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/Description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/timeStamp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <View android:background="#000000"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/OperationName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/Description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <TextView
+        android:id="@+id/timeStamp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"
+        android:text="Try"/>
+
+    <View android:background="#000000"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+
+</LinearLayout>

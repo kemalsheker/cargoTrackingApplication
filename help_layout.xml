@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="13">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar_help"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#6666ff"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <ImageView
+            android:layout_width="176dp"
+            android:layout_height="43dp"
+            android:layout_gravity="left"
+            android:src="@drawable/kargomkolay_logo" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout
+            android:id="@+id/help1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yurt dışı kargoda yaşanan gümrük problemleri nelerdir?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/help2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yurt dışı kargo fiyat hesaplama nasıl yapılır?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/help3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yurtdışına kargo gönderirken dikkat edilecek 9 kural."
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/help4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-İhracat nedir? Nasıl Yapılır?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/help5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kargo paketleme nasıl yapılır?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/help6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gümrük Vergisi Hesaplama"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/help7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hava kargo ile Express kargo arasındaki farklar nelerdir?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/help8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@android:drawable/list_selector_background"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kargo kolilerinin zarar görmemesi için nasıl paketlenmesi gerekir?"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BFBFBF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+   </LinearLayout>
+
+</LinearLayout>
